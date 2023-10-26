@@ -55,10 +55,10 @@ public class Animal {
         StringBuilder sb = new StringBuilder();
         sb
                 .append("There ")
-                .append(numberOfAnimals == 1 ? "are " : "is ")
+                .append(numberOfAnimals == 1 ? "is " : "are ")
                 .append("currently ")
                 .append(numberOfAnimals)
-                .append(numberOfAnimals == 1 ? " animals" : " animal")
+                .append(numberOfAnimals == 1 ? " animal" : " animals")
                 .append(" in our world.");
 
         System.out.println(sb.toString());
@@ -69,10 +69,10 @@ public class Animal {
         StringBuilder sb = new StringBuilder();
         sb
                 .append("There ")
-                .append(numberOfMammals == 1 ? "are " : "is ")
+                .append(numberOfMammals == 1 ? "is " : "are ")
                 .append("currently ")
                 .append(numberOfMammals)
-                .append(numberOfMammals == 1 ? " mammals" : " mammal")
+                .append(numberOfMammals == 1 ? " mammal" : " mammals")
                 .append(" in our world.");
 
         System.out.println(sb.toString());
@@ -83,7 +83,7 @@ public class Animal {
         StringBuilder sb = new StringBuilder();
         sb
                 .append("There ")
-                .append(numberOfFish == 1 ? "are " : "is ")
+                .append(numberOfFish == 1 ? "is " : "are ")
                 .append("currently ")
                 .append(numberOfFish)
                 .append(" fish")
@@ -97,10 +97,10 @@ public class Animal {
         StringBuilder sb = new StringBuilder();
         sb
                 .append("There ")
-                .append(numberOfBirds == 1 ? "are " : "is ")
+                .append(numberOfBirds == 1 ? "is " : "are ")
                 .append("currently ")
                 .append(numberOfBirds)
-                .append(numberOfBirds == 1 ? " birds" : " bird")
+                .append(numberOfBirds == 1 ? " bird" : " birds")
                 .append(" in our world.");
 
         System.out.println(sb.toString());

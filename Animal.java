@@ -51,10 +51,6 @@ public class Animal {
         return type.name().toLowerCase();
     }
 
-    public void setType(Type newType) {
-        this.type = newType;
-    }
-
     public static int getNumberOfAnimals() {
         StringBuilder sb = new StringBuilder();
         sb

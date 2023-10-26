@@ -1,6 +1,6 @@
-public class GreatShark extends Shark {
+public class GreatWhite extends Shark {
 
-    public GreatShark(String name) {
+    public GreatWhite(String name) {
         super(name);
     }
 

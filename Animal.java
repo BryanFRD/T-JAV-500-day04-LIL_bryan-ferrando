@@ -32,7 +32,7 @@ public class Animal {
                 break;
         }
 
-        System.out.println("My name is " + getName() + " and I am a " + getType());
+        System.out.println("My name is " + getName() + " and I am a " + getType() + "!");
     }
 
     public String getName() {
@@ -55,9 +55,10 @@ public class Animal {
         StringBuilder sb = new StringBuilder();
         sb
                 .append("There ")
-                .append(numberOfAnimals > 1 ? "are " : "is ")
+                .append(numberOfAnimals == 1 ? "are " : "is ")
+                .append("currently ")
                 .append(numberOfAnimals)
-                .append(numberOfAnimals > 1 ? " animals" : " animal")
+                .append(numberOfAnimals == 1 ? " animals" : " animal")
                 .append(" in our world.");
 
         System.out.println(sb.toString());
@@ -68,9 +69,10 @@ public class Animal {
         StringBuilder sb = new StringBuilder();
         sb
                 .append("There ")
-                .append(numberOfMammals > 1 ? "are " : "is ")
+                .append(numberOfMammals == 1 ? "are " : "is ")
+                .append("currently ")
                 .append(numberOfMammals)
-                .append(numberOfMammals > 1 ? " mammals" : " mammal")
+                .append(numberOfMammals == 1 ? " mammals" : " mammal")
                 .append(" in our world.");
 
         System.out.println(sb.toString());
@@ -81,9 +83,10 @@ public class Animal {
         StringBuilder sb = new StringBuilder();
         sb
                 .append("There ")
-                .append(numberOfFish > 1 ? "are " : "is ")
+                .append(numberOfFish == 1 ? "are " : "is ")
+                .append("currently ")
                 .append(numberOfFish)
-                .append(numberOfFish > 1 ? " fish" : " fish")
+                .append(" fish")
                 .append(" in our world.");
 
         System.out.println(sb.toString());
@@ -94,9 +97,10 @@ public class Animal {
         StringBuilder sb = new StringBuilder();
         sb
                 .append("There ")
-                .append(numberOfBirds > 1 ? "are " : "is ")
+                .append(numberOfBirds == 1 ? "are " : "is ")
+                .append("currently ")
                 .append(numberOfBirds)
-                .append(numberOfBirds > 1 ? " birds" : " bird")
+                .append(numberOfBirds == 1 ? " birds" : " bird")
                 .append(" in our world.");
 
         System.out.println(sb.toString());

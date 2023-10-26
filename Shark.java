@@ -20,4 +20,19 @@ public class Shark extends Animal {
         }
     }
 
+    public boolean canEat(Animal animal){
+        return animal.getType().equals("fish") && !(animal instanceof Shark);
+    }
+
+    public boolean eat(Animal animal){
+        if(canEat(animal)){
+            System.out.println(getName() + " ate a " + animal.getType() + " named " + animal.getName() + ".");
+            frenzy = false;
+            return true;
+        } else {
+            System.out.println(getName() + ": It's not worth my time.");
+            return false;
+        }
+    }
+
 }

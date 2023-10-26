@@ -86,8 +86,7 @@ public class Animal {
                 .append(numberOfFish == 1 ? "is " : "are ")
                 .append("currently ")
                 .append(numberOfFish)
-                .append(" fish")
-                .append(" in our world.");
+                .append(" fish in our world.");
 
         System.out.println(sb.toString());
         return numberOfFish;

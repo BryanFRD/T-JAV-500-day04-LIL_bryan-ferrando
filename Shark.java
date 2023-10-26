@@ -21,7 +21,7 @@ public class Shark extends Animal {
     }
 
     public boolean canEat(Animal animal){
-        return animal.getType().equals("fish") && !(animal instanceof Shark);
+        return this != animal;
     }
 
     public boolean eat(Animal animal){

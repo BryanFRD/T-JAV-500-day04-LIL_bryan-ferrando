@@ -5,7 +5,6 @@ public class Cat  extends Animal {
     public Cat(String name, String color) {
         this(name);
         this.color = color;
-        System.out.println(getName() + ": MEEEOOWWWW");
     }
 
     public Cat(String name) {

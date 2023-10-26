@@ -24,14 +24,12 @@ public class Shark extends Animal {
         return this != animal;
     }
 
-    public boolean eat(Animal animal){
+    public void eat(Animal animal){
         if(canEat(animal)){
             System.out.println(getName() + " ate a " + animal.getType() + " named " + animal.getName() + ".");
             frenzy = false;
-            return true;
         } else {
             System.out.println(getName() + ": It's not worth my time.");
-            return false;
         }
     }
 

@@ -20,7 +20,7 @@ public class Shark extends Animal {
         }
     }
 
-    public boolean canEat(Animal animal){
+    public Boolean canEat(Animal animal){
         return this != animal;
     }
 

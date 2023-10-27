@@ -5,7 +5,7 @@ public class BlueShark extends Shark {
     }
 
     @Override
-    public boolean canEat(Animal animal) {
+    public Boolean canEat(Animal animal) {
         return animal.getType().equals("fish") && super.canEat(animal);
     }
 
